@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Kanye West quote and random cat picture</title>
+</head>
+<body>
+<div style="text-align: center;">
+    <img th:src="${quoteandpicture.image}" alt="Cat image" height="480px">
+    <span style="color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 30px;
+     font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center; ">
+    <h2 th:text="${quoteandpicture.quote}">
+    </h2>
+    </span>
+</div>
+</body>
+</html>

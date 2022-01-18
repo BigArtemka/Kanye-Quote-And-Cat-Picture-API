@@ -43,7 +43,7 @@ class KanyeQuoteCatPictureApplicationTest {
     void isPictureApiWorking() {
         var actualResponseCode = 0;
         try {
-            URL url = new URL("https://some-random-api.ml/animal/cat");
+            URL url = new URL("https://thatcopy.pw/catapi/rest/");
             actualResponseCode = getHttpConnection(url).getResponseCode();
         } catch (IOException e) {
             e.printStackTrace();
